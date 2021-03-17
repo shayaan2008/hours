@@ -1,0 +1,31 @@
+<div class="slide">
+<ngb-carousel *ngIf="images">
+    <ng-template ngbSlide>
+      <div class="p1">
+        <img [src]="images[0]" alt="">
+      </div>
+      <div class="carousel-caption">
+        <h3>Sam Hudson</h3>
+        <p>Nutella cake is my favorite </p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="p1">
+        <img [src]="images[1]" alt="">
+      </div>
+      <div class="carousel-caption">
+        <h3>Billy Idol</h3>
+        <p>Can't wait to drink Frozen Margaritta</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="p1">
+        <img [src]="images[2]" alt="">
+      </div>
+      <div class="carousel-caption">
+        <h3>Led Zap</h3>
+        <p>Hot Wing is really Hot. And the service is Awesome</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+</div>

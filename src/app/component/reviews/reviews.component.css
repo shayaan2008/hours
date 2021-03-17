@@ -1,0 +1,13 @@
+.slide{
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    
+
+}
+.carousel-caption{
+    margin-bottom: 200px;
+    text-align: left;
+    font-weight:800px;
+    font-size:medium;
+}
